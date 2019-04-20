@@ -56,7 +56,7 @@ Mail</td>
 ile</td>
 <td><input type=text name=mob placeholder="+91"></td>
 </tr><tr>
-<td>Languages known</td>
+<td>Tamil known</td>
 <td><input type=checkbox name=lk value=Gujarati 
 checked>Gujarati</td>
 INTERNET TECHNOLOGY
