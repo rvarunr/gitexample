@@ -1,0 +1,509 @@
+
+
+.close {
+	font-size:16px !important;
+}
+
+.uam_mob_window{
+	width:395px !important;
+}
+
+.uam_mob_tableText {
+	text-align:center !important;
+	padding-top:15px !important;
+}
+	
+table.uam_mob_tableText td {
+	padding-left:0 !important;
+}
+
+@media (max-width: 768px) {
+  .uam_mobileMainWindow { 
+	width: 90% ! important;    	
+  }
+}
+
+.uam_tableText {
+     /* text-align: center; */
+     width: 100%;
+}
+
+.uamExitCurrentMobileButton {
+     margin-left: 7.5px;
+}
+
+.uamlogoutMobileButton {
+     margin-right: 7.5px;
+}
+
+a.uam_ClickHere {
+     color: blue;
+     text-decoration: none;
+}
+
+a.uam_ClickHere:hover {
+     color: blue;
+     text-decoration: none;
+}
+
+button::-moz-focus-inner {
+     border-color: transparent;
+}
+
+.uam_bea-portal-window-titlebar {
+    background-color: #FFFFFF;
+    background-image: none;
+    float: left;
+    font-family: Arial !important;
+    font-size: 18px;
+    font-weight: normal;
+    height: 20px;
+    padding: 5px 8px 9px 4px;
+    margin-left:17px;
+}
+
+#uam_boxes .uam_window {
+     color: black;
+     display: none;
+     height: 281px;
+     left: 0px;
+     padding: 20px;
+     position: absolute;
+     top: 0px;
+     width: 580px;
+     z-index: 9999;
+}
+
+#uam_boxes #popup {
+     height: 310px;
+     padding: 0px;
+     width: 630px;     
+}
+
+#uam_boxes #popupMob {
+     height: 143px;
+     padding: 0px;
+     width: 395px;
+}
+
+#uam_boxes textarea:focus, #uam_boxes input:focus {
+     border: 0px none;
+     outline: medium none;
+}
+
+#uam_mask {
+     background: url("/logout/images/overlay.png") repeat scroll 19px center transparent;
+     display: none;
+     left: 0px;
+     position: absolute;
+     top: 0px;
+     z-index: 9000;
+}
+
+#uam_outlineRemove {
+     outline: medium none;
+}
+
+#uam_outlineAdd {
+     outline: thin dashed black;
+}
+
+#uam_boxes .uam_logoutdisableButton {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -100px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutdisableButton:hover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px 0px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutdisableButtonSelected {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -150px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     outline: medium none;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutdisableButtonSelected:hover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -50px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     outline-style: none;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutdisableButtonGlow {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px 0px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutdisableButtonSelectedQHover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -50px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutButton {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -500px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutButton:hover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -400px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutButtonSelected {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -550px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     outline: medium none;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutButtonSelected:hover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -450px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     outline-style: none;
+     width: 143px;
+}
+
+#uam_boxes .uam_exitCurrent {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -300px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_exitCurrent:hover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -200px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     outline: medium none;
+     width: 143px;
+}
+
+#uam_boxes .uam_exitCurrentSelected {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -350px transparent;
+     border: medium none transparent;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     outline: medium none;
+     width: 143px;
+}
+
+#uam_boxes .uam_exitCurrentSelected:hover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -250px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_logoutButtonGlow {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -400px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_exitCurrentGlow {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -200px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_exitCurrentSelectedQHover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -250px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_LogoutButtonSelectedQHover {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -450px transparent;
+     border: medium none;
+     cursor: pointer;
+     height: 50px;
+     margin-left: 10px;
+     margin-right: 15px;
+     width: 143px;
+}
+
+#uam_boxes .uam_Arrow_Down {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -630px transparent;
+     border: 0px none;
+     cursor: pointer;
+     height: 8px;
+     margin-left: 5px;
+     margin-top: 5px;
+     position: absolute;
+     width: 16px;
+}
+
+#uam_boxes .uam_Arrow_Up {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -638px transparent;
+     border: 0px none;
+     cursor: pointer;
+     height: 8px;
+     margin-left: 5px;
+     margin-top: 5px;
+     position: absolute;
+     width: 16px;
+}
+
+#uam_boxes .uam_iwa_panel {
+     border-radius: 10px;
+     border: medium solid lightslategrey;
+     font-size: 12px;
+     margin-left: 59px;
+     position: relative;
+     width: 462px;
+}
+
+TABLE.uam_blue {
+     background: none repeat scroll 0px 0px #ffffff;
+     border-collapse: inherit;
+     border-color: #1271c1;
+     border-radius: 10px;
+     border-style: solid;
+     border-width: 4px;
+     height: 281px;
+     max-width: 654px;
+     width: 654px;
+}
+
+TABLE.blue {
+     background: none repeat scroll 0px 0px #ffffff;
+     border-color: #1271c1;
+     border-style: solid;
+     border-width: 0px;
+     height: 281px;
+     max-width: 654px;
+     width: 654px;
+}
+
+#uam_boxes #Closed {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -646px transparent;
+     border: 0px none;
+     cursor: pointer;
+     height: 37px;
+     margin-left: 626px;
+     margin-top: -8px;
+     position: absolute;
+     width: 36px;
+}
+
+#uam_boxes #uam_Cross {
+     background: url("/logout/images/SpriteImages.png") no-repeat scroll 0px -646px transparent;
+     border: 0px none;
+     cursor: pointer;
+     height: 37px;
+     margin-left: 626px;
+     margin-top: -8px;
+     position: absolute;
+     width: 36px;
+}
+
+#uam_boxes #uam_CrossMobile {
+     background: url("/logout/images/SpriteImages.png") repeat scroll 0px -646px transparent;
+     border: 0px none;
+     cursor: pointer;
+     height: 37px;
+     margin-left: 370px;
+     margin-top: -11px;
+     position: absolute;
+     width: 36px;
+}
+
+#uam_boxes .uam_commonBackground {
+     background-color: #f1f7f8 ! important;
+     border-color: #d5e4e6;
+     border-style: solid;
+     border-width: 1px;
+     font-family: arial ! important;
+     font-size: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
+}
+
+#uam_boxes .uam_tableText {
+     font-family: Arial ! important;
+     
+}
+
+#uam_boxes .uam_dynamicerrorline {
+     background-color: #f1f7f8 ! important;
+     color: #8f0404;
+     font-family: Arial ! important;
+     font-size: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
+     padding-right: 15px;
+}
+
+/*@media (min-width: 100px) and (max-width: 530px) {*/
+@media (max-width: 768px) {
+  #uam_boxes #popupMob { padding: 0px; width: 100% ! important; height: 143px; }
+  TABLE.uam_mobileMainWindow { background: none repeat scroll 0px 0px #ffffff; border-collapse: inherit; box-shadow: 5px 0px 5px 5px #222222; height: 0px ! important; max-width: 100% ! important; }
+  TABLE.uam_blue { width: 97%; max-width: 97%; border-collapse: inherit; height: 281px; background: none repeat scroll 0px 0px #ffffff; border-radius: 10px; border-width: 4px; border-style: solid; border-color: #1271c1; }
+   div#uam_firstline { /* font-size: 11px ! important; */ }
+  }
+
+
+#uam_mask {
+     background: none repeat scroll 0px 0px black;
+     display: none;
+     left: 0px;
+     position: absolute;
+     top: 0px;
+     z-index: 9000;
+}
+
+TABLE.uam_mobileMainWindow {
+     background: none repeat scroll 0px 0px #ffffff;
+     border-collapse: inherit;
+     box-shadow: 5px 0px 5px 5px #222222;
+     height: 0px ! important;
+     /*margin-left: 15%;
+     margin-right: 15%;*/
+     max-width: 395px;
+     width: 395px;
+}
+
+@media (max-width:768px) {
+	.uam_blue {
+		width:90% !important;		
+		margin-left:5%;
+		margin-right:5%;
+	}
+	#uam_firstline {
+		font-size:16px !important;
+		padding-right:10px;
+		padding-left:10px;
+	}
+	.uam_tableText {
+		font-size:12px;		
+	}
+	table.uam_tableText td {
+		/* padding-left:20px; */
+	}
+	#logoutbutton {
+		margin-left:0px !important;
+	}
+	#uamExitCurrentButton {
+		margin-left:0px !important;	
+	}
+	
+  #popup { top: 0px ! important; 
+		margin-top: 20%;
+width: 60% ! important; margin-right: 5% !important; margin-left: 5% !important; }
+
+	.uam_Cross {
+		margin-left: 80% !important;
+	}	
+	table.uam_tableText td {		
+		width: 100%;
+		float: left;
+		padding-left: 10px;
+	
+		padding-bottom: 5px;
+}
+	#uam_SubmitForm {
+		width:90%;
+	}	
+}
+
+
+@media (max-width: 550px) {
+ 
+
+#popup {
+		top: 0px ! important; 
+		margin-top: 15%;
+		width: 90% !important;		
+		margin-left:5% !important;
+		margin-right:5% !important;
+	}
+  TABLE.uam_mobileMainWindow { background: none repeat scroll 0px 0px #ffffff; border-collapse: inherit; box-shadow: 5px 0px 5px 5px #222222; height: 0px ! important; max-width: 100% ! important; }
+}
+
+@media (max-width: 370px) {
+	#uamExitCurrentMobileButton {    		
+	       width: 40% !important;
+		
+		margin-right:5%;
+	}
+	#uamlogoutMobileButton {    		
+    		width: 40% !important;
+		margin-left:5%;
+		
+	}
+}
+
+
+

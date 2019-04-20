@@ -1,0 +1,52 @@
+.uam_modal {
+     display: block;
+	  bottom: 0px;
+      left: 0px;
+     overflow-x: auto;
+     overflow-y: scroll;
+     position: fixed;
+     right: 0px;
+     top: 0px;
+     z-index: 1040;
+}
+
+.uam_modal-dialog {
+     margin: 10px;
+     position: relative;
+     width: auto;
+     z-index: 1050;
+}
+
+.uam_modal-header {
+     background-color: #003366;
+     height: 63px;
+	 border-left: 1px solid #FFFFFF;
+     border-right: 2px solid #FFFFFF;
+     border-top: 1px solid #FFFFFF;
+     min-height: 16.4286px;
+     padding: 6px;
+}
+
+.uam_modal-body {
+     padding-left: 15px;
+     padding-right: 15px;
+	   padding-top: 20px;
+	   	   padding-bottom: 20px;
+     position: relative;
+}
+
+.uam_modal-content {
+     background-color: #EEF2F9;
+     border: 5px solid #C3D9FF;
+     font-family: ARIAL;
+     font-size: 13px;
+	 background-clip: padding-box;
+     outline: medium none;
+     position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+  .uam_modal-dialog { width: 100% ! important; }
+  .uam_modal-content { margin-left: 10%; width: 80% ! important; margin-right: 10% ! important; }
+}
