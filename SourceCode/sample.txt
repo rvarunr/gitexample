@@ -1,3 +1,5 @@
+This is a  sample HTML project
+
 <html>
 <body>
 <Center>
@@ -8,8 +10,8 @@
 <table>
 <tr>
 <td></td>
-<td><input type=radio name=initial checked>Mr.
-<input type=radio name=initial>Mrs.
+<td><input type=radio name=initial checked>Mr.Rajesh
+<input type=radio name=initial>Mrs.Sudha
 <input type=radio name=initial>Ms.</td>
 </tr><tr>
 <td>First Name</td>
@@ -31,7 +33,7 @@ name=add2></td>
 </tr><tr>
 <td>State</td>
 <td><select name=state>
-<option value="Gujarat">Gujarat
+<option value="Kerala">Kerala
 <option value="Maharastra">Maharastra
 <option value="Karnataka">Karnataka
 <option value=
